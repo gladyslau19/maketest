@@ -8,7 +8,10 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "main.cpp",
+        "bitboard.h",
+        "bitboard.cpp"
     ],
     "testFiles": [
         "test.ts"
