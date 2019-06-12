@@ -26,14 +26,5 @@
         "test.ts"
     ],
     "public": true,
-    "additionalFilePaths": [],
-    "yotta": {
-        "config":{
-            "microbit-dal":{
-                "bluetooth":{
-                    "enabled":1
-                }
-            }
-        }
-    }
+    "additionalFilePaths": []
 }
