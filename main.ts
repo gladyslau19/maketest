@@ -132,7 +132,16 @@ namespace bitboard
     //% subcategory=Inputs
     //% group=Inputs
     export function sendfunckey(funckey: BBFuncKeys){
-    //send functional keys
+        switch (funckey)
+        {
+            case BBFuncKeys.Enter: bitboard.send_function_keys(0x04);
+            case BBFuncKeys.Space: bitboard.send_function_keys(0x2c);
+            case BBFuncKeys.Backspace: bitboard.send_function_keys(0x2a);
+            case BBFuncKeys.Tab: bitboard.send_function_keys(0x2b);
+            case BBFuncKeys.Escape: bitboard.send_function_keys(0x29);
+            case BBFuncKeys.CapsLock: bitboard.send_function_keys(0x39);
+	    default: NULL;
+        }
     }
 
     /**
