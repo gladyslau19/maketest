@@ -19,7 +19,7 @@ protected:
 public:
 //    MicroBit &uBit;
     BLE &ble;
-    bitboard(/**MicroBit &_uBit,**/ BLE &_ble, KeyboardService* _kbdServicePtr, const char* _DEVICE_NAME, const char* _SHORT_DEVICE_NAME);
+    bitboard(/**MicroBit &_uBit,**/ BLE &_ble, KeyboardService* _kbdServicePtr);
     ~bitboard();
 
     void init();
@@ -28,7 +28,7 @@ public:
     void onDisconnect(const Gap::DisconnectionCallbackParams_t *params);
     void onConnect(const Gap::ConnectionCallbackParams_t *params);
     void onButtonA(MicroBitEvent e);
-    void send_keypress();
+    void send_keypress(uint8_t key_code);
     uint8_t get_keycode(char c);
 
 };
