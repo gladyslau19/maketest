@@ -134,7 +134,7 @@ namespace bitboard
     export function sendfunckey(funckey: BBFuncKeys){
         switch (funckey)
         {
-            case BBFuncKeys.Enter: return bitboard.send_function_keys(0x28);
+            case BBFuncKeys.Enter: return bitboard.send_function_keys(0x04);
             case BBFuncKeys.Space: return bitboard.send_function_keys(0x2c);
             case BBFuncKeys.Backspace: return bitboard.send_function_keys(0x2a);
             case BBFuncKeys.Tab: return bitboard.send_function_keys(0x2b);
