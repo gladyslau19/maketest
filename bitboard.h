@@ -4,11 +4,10 @@
 #include "MicroBit.h"
 #include "mbed.h"
 #include "ble/BLE.h"
-#include "KeyboardService.h"
+#include "inc/KeyboardService.h"
 #include "MicroBitPin.h"
-#include "examples_common.h"
+#include "inc/examples_common.h"
 #include "MicroBit.h"
-#include "keymap.h"
 
 class bitboard {
 protected:
