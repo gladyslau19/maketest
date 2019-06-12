@@ -11,7 +11,17 @@
         "main.ts",
         "main.cpp",
         "bitboard.h",
-        "bitboard.cpp"
+        "bitboard.cpp",
+        "inc/HIDDeviceInformationService.h",
+        "inc/HIDServiceBase.cpp",
+        "inc/HIDServiceBase.h",
+        "inc/HID_types.h",
+        "inc/JoystickService.h",
+        "inc/KeyboardService.h",
+        "inc/Keyboard_types.h",
+        "inc/MouseService.h",
+        "inc/examples_common.cpp",
+        "inc/examples_common.h"
     ],
     "testFiles": [
         "test.ts"
