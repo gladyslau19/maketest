@@ -127,6 +127,7 @@ namespace bitboard
     /**
       *	Send functional keys through BLE
       */
+    //% shim=bitboard::send_function_keys
     //% block="send %funckey"
     //% funckey.fieldEditor="gridpicker" funckey.fieldOptions.columns=3
     //% subcategory=Inputs
@@ -134,9 +135,9 @@ namespace bitboard
     export function sendfunckey(funckey: BBFuncKeys){
         switch (funckey)
         {
-            case BBFuncKeys.Enter: bitboard::send_function_keys(0x04);
-            case BBFuncKeys.Space: bitboard::send_function_keys(0x2c);
-            case BBFuncKeys.Backspace: bitboard::send_function_keys(0x2a);
+		case BBFuncKeys.Enter: bitboard::send_function_keys(0x04);
+		case BBFuncKeys.Space: bitboard::send_function_keys(0x2c);
+		case BBFuncKeys.Backspace: bitboard::send_function_keys(0x2a);
             case BBFuncKeys.Tab: bitboard::send_function_keys(0x2b);
             case BBFuncKeys.Escape: bitboard::send_function_keys(0x29);
             case BBFuncKeys.CapsLock: bitboard::send_function_keys(0x39);
