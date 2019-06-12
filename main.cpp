@@ -1,4 +1,7 @@
 #include "bitboard.h"
+#include "pxt.h"
+
+using namespace pxt;
 
 namespace bitboard{
 
