@@ -2,7 +2,7 @@
 
 namespace bitboard{
 
-    BLEDevice ble;
+    BLE ble;
     KeyboardService* kbdServicePtr;
     bitboard btboard(ble, kbdServicePtr);
     btboard.init();
