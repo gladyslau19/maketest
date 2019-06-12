@@ -18,7 +18,7 @@
         "inc/HID_types.h",
         "inc/JoystickService.h",
         "inc/KeyboardService.h",
-        
+
         "inc/MouseService.h",
         "inc/examples_common.cpp",
         "inc/examples_common.h"
@@ -27,5 +27,14 @@
         "test.ts"
     ],
     "public": true,
-    "additionalFilePaths": []
+    "additionalFilePaths": [],
+    "yotta": {
+        "config":{
+            "microbit-dal":{
+                "bluetooth":{
+                    "enabled":1
+                }
+            }
+        }
+    }
 }
