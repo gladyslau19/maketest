@@ -20,7 +20,8 @@
 
         "inc/MouseService.h",
         "inc/examples_common.cpp",
-        "inc/examples_common.h"
+        "inc/examples_common.h",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
