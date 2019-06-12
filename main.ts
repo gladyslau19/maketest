@@ -132,7 +132,7 @@ namespace bitboard
     //% funckey.fieldEditor="gridpicker" funckey.fieldOptions.columns=3
     //% subcategory=Inputs
     //% group=Inputs
-    export function sendfunckey(funckey: BBFuncKeys){
+    export function send_function_keys(funckey: BBFuncKeys){
         switch (funckey)
         {
 		case BBFuncKeys.Enter: bitboard.send_function_keys(0x04);
