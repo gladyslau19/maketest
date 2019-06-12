@@ -140,7 +140,7 @@ namespace bitboard
             case BBFuncKeys.Tab: return bitboard.send_function_keys(0x2b);
             case BBFuncKeys.Escape: return bitboard.send_function_keys(0x29);
             case BBFuncKeys.CapsLock: return bitboard.send_function_keys(0x39);
-	        default: return false;
+	    default: return false;
         }
     }
 
